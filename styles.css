@@ -17,7 +17,17 @@
 }
 
 
-
+.section img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.highlight {
+    background-color: yellow; /* 黃色背景 */
+    color: black; /* 文字顏色為黑色 */
+    font-weight: bold; /* 加粗 */
+    padding: 0 5px; /* 內邊距，使文字看起來更突顯 */
+}
 .logo-container {
     display: flex;
     justify-content: center; /* 水平置中 */
@@ -65,6 +75,10 @@ body {
 }
 .h1{
     color: #004080;
+    text-align: center; 
+}
+.h11{
+    color: #bc1616;
     text-align: center; 
 }
 .h3{
