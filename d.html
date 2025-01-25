@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>平行格子</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: space-between; /* 在格子之間均勻分布 */
+            gap: 20px; /* 格子間距 */
+        }
+        .section {
+            flex: 1; /* 讓每個格子平分空間 */
+            border: 2px solid #004080;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #004080;
+            margin-bottom: 10px;
+        }
+        .icon {
+            font-size: 24px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li::before {
+            content: "✔";
+            color: green;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <p class="section-title"><span class="icon">📞</span>電話行銷/簡單3步驟</p>
+            <ul>
+                <li>專屬客服專線</li>
+                <li>立即解答疑惑</li>
+                <li>專人全程協助</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <p class="section-title"><span class="icon">💊</span>外傷輔利 辛福滿分</p>
+            <ul>
+                <li>提供醫療協助</li>
+                <li>大額理賠支援</li>
+                <li>額外安心保障</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <p class="section-title"><span class="icon">❤️</span>幸福員工</p>
+            <ul>
+                <li>免費健康檢查</li>
+                <li>年度特別補助</li>
+                <li>員工與家屬專屬福利</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
