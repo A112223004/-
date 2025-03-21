@@ -1,0 +1,28 @@
+.background {
+    background-image: url('background.jpg'); /* 替換為你的圖片路徑 */
+    background-size: cover; /* 圖片填滿視窗 */
+    background-repeat: no-repeat; /* 圖片不重複 */
+    background-position: center; /* 圖片置中 */
+    width: 100%; /* 占滿寬度 */
+    height: 100vh; /* 占滿視窗高度 */
+    position: absolute; /* 固定在頁面上 */
+    top: 0;
+    left: 0;
+    z-index: -1; /* 確保背景不會遮住其他內容 */
+}
+
+.logo {
+    width: 100px; /* 設定 logo 的寬度 */
+    height: 100px; /* 設定 logo 的高度 */
+    border-radius: 50%; /* 讓圖片變成圓形 */
+    object-fit: cover; /* 確保圖片內容不變形，填滿圓形 */
+    border: 3px solid #ccc; /* 加上一圈邊框 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 加上一點陰影效果 */
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center; /* 水平置中 */
+    align-items: center; /* 垂直置中 */
+    margin-top: 20px; /* 與頁面上方的間距 */
+}
