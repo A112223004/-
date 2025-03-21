@@ -24,6 +24,14 @@
     margin: 20px;
 }
 
+.item-link {
+    font-size: 25px; /* 連結文字大小 */
+    margin-left: 35%;
+    text-decoration: none; /* 移除預設的下劃線 */
+    color: #007BFF; /* 連結顏色 */
+    transition: color 0.3s; /* 增加滑鼠懸停的動畫效果 */
+}
+
 .h1{
     color: #004080;
     text-align: center; 
@@ -144,12 +152,7 @@ ul li::before {
     border-radius: 5px; /* 讓圖片有點圓角 */
 }
 
-.item-link {
-    font-size: 16px; /* 連結文字大小 */
-    text-decoration: none; /* 移除預設的下劃線 */
-    color: #007BFF; /* 連結顏色 */
-    transition: color 0.3s; /* 增加滑鼠懸停的動畫效果 */
-}
+
 
 .item-link:hover {
     color: #0056b3; /* 滑鼠懸停時的顏色 */
